@@ -1,6 +1,6 @@
 <?php
 
-namespace ants\dashboard\models;
+namespace ant\dashboard\models;
 
 use cornernote\dashboard\Layout;
 use cornernote\dashboard\models\query\DashboardQuery;

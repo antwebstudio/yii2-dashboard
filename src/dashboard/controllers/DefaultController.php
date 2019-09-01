@@ -1,7 +1,7 @@
 <?php
 namespace ant\dashboard\controllers;
 
-use cornernote\dashboard\models\Dashboard;
+use ant\dashboard\models\Dashboard;
 
 class DefaultController extends \yii\web\Controller {
 	public function actionIndex() {
