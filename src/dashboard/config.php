@@ -6,5 +6,8 @@ return [
     'isCoreModule' => false,
 	'depends' => [],
 	'modules' => [
+		'backend' => [
+			'class' => ant\dashboard\backend\Module::class,
+		],
 	],
 ];

@@ -12,7 +12,7 @@ class M190701074205_permissions extends Migration
 	
 	public function init() {
 		$this->permissions = [
-			\ant\dashboard\controllers\DefaultController::class => [
+			\ant\dashboard\backend\controllers\DefaultController::class => [
 				'index' => ['Access dashboard', [Role::ROLE_ADMIN]],
 			],
 			\cornernote\dashboard\controllers\DashboardController::class => [
